@@ -12,6 +12,8 @@ class ChttptestDlg : public CDialogEx
 private :
 	BOOL RequestHTTP_GET();
 	BOOL RequestHTTP_POST();
+	UINT RequestHTTP_POST2();
+	UINT RequestHTTP_POST3();
 
 // コンストラクション
 public:
